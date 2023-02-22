@@ -4,7 +4,7 @@ import { BotaoEstilizado } from "./styles";
 export const AbBotao = () => {
     return(
         <BotaoEstilizado>
-            Clique Aqui!
+            Comprar
         </BotaoEstilizado>
     )
 }
