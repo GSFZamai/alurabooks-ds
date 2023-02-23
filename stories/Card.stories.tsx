@@ -8,6 +8,15 @@ export default {
     component: Card
 } as ComponentMeta<typeof Card>;
 
-const Template: ComponentStory<typeof Card> = () => <Card />;
+const Template: ComponentStory<typeof Card> = () =>{
+    return(
+        <Card 
+            autor="Vitor Zanini"
+            price={29.90}
+            subtitulo="Habilidades de gestão para alavancar sua carreira"
+            titulo="Liderança em Design"
+        />
+    )
+};
 
 export const Primario = Template.bind({});

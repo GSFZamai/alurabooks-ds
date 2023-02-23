@@ -14,7 +14,19 @@ import {
     CardValueControl
 } from "./styles";
 
-export const Card = () => {
+export interface CardProps {
+    titulo: string,
+    subtitulo: string,
+    autor: string,
+    price: number
+}
+
+export const Card = ({
+    autor,
+    price,
+    subtitulo,
+    titulo
+}: CardProps) => {
     return (
         <CardContainer>
             <CardHeader>
@@ -28,13 +40,13 @@ export const Card = () => {
 
             </CardHeader>
             <CardSubTitle>
-                Liderança em Design
+                {titulo}
             </CardSubTitle>
             <CardCommonText>
-                Habilidades de gestão para alavancar sua carreira
+                {subtitulo}
             </CardCommonText>
             <CardCommonText>
-                Por: Viton Zanini
+                Por: {autor}
             </CardCommonText>
             <CardFooter>
                 <CardValueControl>
@@ -42,10 +54,12 @@ export const Card = () => {
                         A partir de:
                     </ValueLabel>
                     <CardPrice>
-                        R$ 29,90
+                        {price.toLocaleString("pt-BR", {style: "currency", currency: "BRL", minimumIntegerDigits: 2, minimumFractionDigits: 2})}
                     </CardPrice>
                 </CardValueControl>
-                <AbBotao />
+                <AbBotao
+                    titulo="Comprar"
+                />
             </CardFooter>
 
         </CardContainer>

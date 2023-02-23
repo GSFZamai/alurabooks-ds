@@ -4,7 +4,7 @@ import { AbBotao } from "../src";
 
 export default {
     title: "Componentes/AbBotao",
-    component: AbBotao
+    component: AbBotao,
 } as ComponentMeta<typeof AbBotao>
 
 
