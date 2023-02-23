@@ -2,15 +2,22 @@ import React from "react";
 import { BotaoEstilizado } from "./styles";
 
 export interface AbBotaoProps {
-    titulo?: string
+    titulo?: string,
+    tipo?: "primario" | "secundario",
+    onClick?: () => void
 }
 
 export const AbBotao = (
     {
-        titulo = "Clique Aqui!"
+        titulo = "Clique Aqui!",
+        tipo = "primario",
+        onClick,
     }: AbBotaoProps) => {
     return (
-        <BotaoEstilizado>
+        <BotaoEstilizado
+            onClick={onClick}
+            tipo={tipo}
+        >
             {titulo}
         </BotaoEstilizado>
     )
