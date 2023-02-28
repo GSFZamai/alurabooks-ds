@@ -4,6 +4,7 @@ import { AbBotaoProps } from ".";
 export const BotaoEstilizado = styled.button<AbBotaoProps>`
     background-color: ${({ tipo }) => tipo === "primario" ? "#EB9B00" : "#FFFFFF"};
     padding: 16px 32px;
+    width: fit-content;
     font-weight: 700;
     border: 2px solid #EB9B00;
     color: ${({ tipo }) => tipo === "primario" ? "#FFFFFF" : "#EB9B00"};
