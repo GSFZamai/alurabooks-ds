@@ -51,7 +51,7 @@ export const Card = ({
             <CardFooter>
                 <CardValueControl>
                     <ValueLabel>
-                        Preço:
+                        A partir de:
                     </ValueLabel>
                     <CardPrice>
                         {price.toLocaleString("pt-BR", {style: "currency", currency: "BRL", minimumIntegerDigits: 2, minimumFractionDigits: 2})}
