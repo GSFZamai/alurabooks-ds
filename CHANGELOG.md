@@ -1,3 +1,16 @@
+# v0.2.6 (Fri Mar 03 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/GSFZamai/alurabooks-ds ([@GSFZamai](https://github.com/GSFZamai))
+- atualizado Readme ([@GSFZamai](https://github.com/GSFZamai))
+
+#### Authors: 1
+
+- Gabriel Zamai ([@GSFZamai](https://github.com/GSFZamai))
+
+---
+
 # v0.2.5 (Fri Mar 03 2023)
 
 #### ⚠️ Pushed to `master`
