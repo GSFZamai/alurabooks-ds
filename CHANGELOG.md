@@ -1,3 +1,15 @@
+# v0.2.7 (Sat Mar 04 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Update README.md ([@GSFZamai](https://github.com/GSFZamai))
+
+#### Authors: 1
+
+- Gabriel Zamai ([@GSFZamai](https://github.com/GSFZamai))
+
+---
+
 # v0.2.6 (Fri Mar 03 2023)
 
 #### ⚠️ Pushed to `master`
