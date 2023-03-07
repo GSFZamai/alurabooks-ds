@@ -38,3 +38,5 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
           yarn release
+          git checkout ghpages
+          yarn build-storybook
