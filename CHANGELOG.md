@@ -1,3 +1,15 @@
+# v0.2.8 (Tue Mar 07 2023)
+
+#### 🐛 Bug Fix
+
+- Novo Componente Input [#3](https://github.com/GSFZamai/alurabooks-ds/pull/3) ([@GSFZamai](https://github.com/GSFZamai))
+
+#### Authors: 1
+
+- Gabriel Zamai ([@GSFZamai](https://github.com/GSFZamai))
+
+---
+
 # v0.2.7 (Sat Mar 04 2023)
 
 #### ⚠️ Pushed to `master`
