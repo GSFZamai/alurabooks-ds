@@ -1,3 +1,15 @@
+# v0.2.12 (Mon Mar 13 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Update push.yml ([@GSFZamai](https://github.com/GSFZamai))
+
+#### Authors: 1
+
+- Gabriel Zamai ([@GSFZamai](https://github.com/GSFZamai))
+
+---
+
 # v0.2.11 (Mon Mar 13 2023)
 
 #### 🐛 Bug Fix
