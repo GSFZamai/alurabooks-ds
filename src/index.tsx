@@ -23,3 +23,5 @@ export * from "./componentes/Tag";
 export * from "./componentes/AbGrupoOpcoes";
 
 export * from "./componentes/AbInput";
+
+export * from "./componentes/AbModal";
