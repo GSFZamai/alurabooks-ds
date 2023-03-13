@@ -1,3 +1,15 @@
+# v0.2.11 (Mon Mar 13 2023)
+
+#### 🐛 Bug Fix
+
+- Criado componente modal [#4](https://github.com/GSFZamai/alurabooks-ds/pull/4) ([@GSFZamai](https://github.com/GSFZamai))
+
+#### Authors: 1
+
+- Gabriel Zamai ([@GSFZamai](https://github.com/GSFZamai))
+
+---
+
 # v0.2.10 (Tue Mar 07 2023)
 
 #### ⚠️ Pushed to `master`
